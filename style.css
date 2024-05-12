@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+     border: none;
+    /*text-transform: capitalize; */
+   /* transition: all .2s linear;
+    transition: width none;*/
+}
+body{
+    background-image: url("chessboard.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+/* html{
+    font-size: 64%;
+    overflow: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+ */
+
+/* header section */
+header{
+    color: white;
+    height: 75rem; 
+    text-align: center;
+}
+#home{
+    font-size: 3rem;
+    background-color: black;
+    height: fit-content;
+    font-family:'Times New Roman', Times, serif;
+}
+.logo{
+    font-size: 100px;
+    color:white;
+}
+.logo span{
+    font-family: fantasy;
+    font-size: 6rem;
+     color: red; 
+    font-weight: bold;
+}
+ #play{
+    color:red;
+    font-size: 3rem;
+    font-weight: bolder;
+    border-color: black;
+    text-align: center;
+    margin-top: 19rem;
+    /* padding-top: 2rem;
+   
+    margin-bottom: 6rem; */
+}
+ #start{
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+    background-color:#E60026;
+    border: 5px solid black ;
+    padding: 1rem;
+    border-radius: 0.8rem ;
+    margin:auto 5rem;
+}
+a{
+    color:white; 
+}
+
+.header #start span{
+    font-weight: bolder;
+}  
+/*.box{
+    height: 370px; 
+    width: 23%;
+    position: relative;
+    bottom:200px;
+    background-color:#f3f3f3;;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+ .box-img{
+      height: 250px;
+      background-size: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      background-repeat: no-repeat;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+} */
+ .symbols{
+    text-align: center;
+    background-color: black;
+    color: black;
+    font-size: 25px;
+    font-family: cursive;
+}
+.symbols div{
+    background-color: white;
+    display: inline-table;
+    width: 55rem;
+    height:10px;
+    border: 0.2rem solid white;
+    border-radius:.5rem;
+    margin-left: 120px;
+    margin-right: 60px;
+    margin-top:15px;
+    padding: .8rem;
+}
+.symbols span{
+    font-weight: bolder;
+    color: #008000;
+}
+.symbols i{
+    color: black;
+    font-size: 5rem;
+}
+.button{
+    text-align: center;
+    background-color: black;
+}
+#btn1{
+   margin-top: 50px;
+   margin-bottom: 30px;
+    width: 200px;
+    height: 50px;
+    font-family: cursive;
+    background-color: red;
+    border: 0.2rem solid white;
+    border-radius: .5rem;
+    color: white;
+    font-size: 30px;
+}
+
+@media(max-width:991px){
+     html{
+        font-size: 65%;
+    }
+}
+@media(max-width:771px){
+    html{
+        font-size: 42%;
+    }
+    .symbols div{
+        width: 30rem;
+        height: 35rem;
+    }
+}
+@media(max-width:450px){
+     html{
+        font-size: 25%;
+    } 
+} 
